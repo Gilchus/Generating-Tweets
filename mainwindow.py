@@ -23,12 +23,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        # self.tableView = QtWidgets.QTableView(self.centralwidget)
-        # self.tableView.setGeometry(QtCore.QRect(10, 170, 1331, 761))
-        # self.tableView.setAccessibleDescription("")
-        # self.tableView.setObjectName("tableView")
-        # self.tableView.
-
+        
         self.table = QtWidgets.QTableWidget(self.centralwidget)
         self.table.setColumnCount(1)
         self.table.setHorizontalHeaderLabels([""])
